@@ -1,6 +1,10 @@
+const names = ['John Doe', 'Jane Doe', 'Jack Doe', 'James Doe', 'Jared Doe']
+
 const App = () => {
   return (
-    <h1>Hello World!</h1>
+    <ul>
+      {names.map(name => <li>{name}</li>)}
+    </ul>
   )
 }
 
